@@ -277,7 +277,7 @@ nav:hover {
 .ev0 {
 	display: flex;
 	height: 60px;
-	background-image: url(HatakeSunflower.github.io/ASSETS/traveller.jpg);
+	background-image: url(HatakeSunflower.github.io/assets/traveller.jpg);
 	background-position: center center;
 	background-size: cover;
 }
@@ -286,7 +286,7 @@ nav:hover {
 	display: grid;
 	grid-template-columns: 33.333% 33.33% 33.33%;
 	width: 100%;
-	background-image: url(HatakeSunflower.github.io/ASSETS/Haunted_Forest.webp);
+	background-image: url(HatakeSunflower.github.io/assets/hauntedforest.jpg);
 	background-position: center center;
 	background-size: cover;
 	justify-content: flex-start;
