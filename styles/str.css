@@ -71,7 +71,7 @@ nav:hover {
 	position: relative;
 	z-index: -2;
 	top: 0px;
-	background-image: url(HatakeSunflower.github.io/assets/traveller.jpg);
+	background-image: url(../ASSETS/traveller.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
@@ -202,7 +202,7 @@ nav:hover {
 .seccion-destinos {
 	display: flex;
 	flex-direction: column;
-	background-image: url(../assets/bll.jpg);
+	background-image: url(../ASSETS/bll.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
@@ -277,7 +277,7 @@ nav:hover {
 .ev0 {
 	display: flex;
 	height: 60px;
-	background-image: url(HatakeSunflower.github.io/assets/traveller.jpg);
+	background-image: url(../ASSETS/traveller.jpg);
 	background-position: center center;
 	background-size: cover;
 }
@@ -286,7 +286,7 @@ nav:hover {
 	display: grid;
 	grid-template-columns: 33.333% 33.33% 33.33%;
 	width: 100%;
-	background-image: url(../assets/hauntedforest.jpg);
+	background-image: url(../ASSETS/Haunted_Forest.webp);
 	background-position: center center;
 	background-size: cover;
 	justify-content: flex-start;
@@ -308,7 +308,7 @@ nav:hover {
 	height: 200px;
 	margin: 10px;
 	border: 1px solid white;
-	background-image: url(HatakeSunflower.github.io/assets/dawn.jpg);
+	background-image: url(../assets/dawn.jpg);
 	background-position: center center;
 	background-size: cover;
 }
@@ -318,7 +318,7 @@ nav:hover {
 	height: 200px;
 	margin: 10px;
 	border: 1px solid white;
-	background-image: url(HatakeSunflower.github.io/assets/fest.jpg);
+	background-image: url(../assets/fest.jpg);
 	background-position: center center;
 	background-size: cover;
 }
@@ -329,7 +329,7 @@ nav:hover {
 	height: 200px;
 	margin: 10px;
 	border: 1px solid white;
-	background-image: url(HatakeSunflower.github.io/assets/dawn.jpg);
+	background-image: url(../assets/dawn.jpg);
 	background-position: center center;
 	background-size: cover;
 }
@@ -377,7 +377,7 @@ nav:hover {
 }
 
 .voluntariado {
-	background-image: url(HatakeSunflower.github.io/assets/torre.jpg);
+	background-image: url(../assets/torre.jpg);
 	padding: 10px;
 	color: black;
 	display: flex;
@@ -387,7 +387,7 @@ nav:hover {
 .voluntariado div {
 	width: 100%;
 	height: 200px;
-	background-image: url(HatakeSunflower.github.io/assets/m_tower_pano.jpg);
+	background-image: url(../assets/m_tower_pano.jpg);
 	background-position: center center;
 	background-size: cover;
 }
