@@ -129,7 +129,7 @@ nav:hover {
 	padding-right: 10%;
 	transition: 0.5s;
 	display: flex;
-	background-image: url(HatakeSunflower.github.io/assets/supers_bg_desktop.jpg);
+	background-image: url(../assets/supers_bg_desktop.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
@@ -202,7 +202,7 @@ nav:hover {
 .seccion-destinos {
 	display: flex;
 	flex-direction: column;
-	background-image: url(HatakeSunflower.github.io/assets/bll.jpg);
+	background-image: url(../assets/bll.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
@@ -230,7 +230,7 @@ nav:hover {
 	padding-left: 10%;
 	padding-right: 10%;
 	display: flex;
-	background-image: url(HatakeSunflower.github.io/assets/hiveb.jpg);
+	background-image: url(../assets/hiveb.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
@@ -286,7 +286,7 @@ nav:hover {
 	display: grid;
 	grid-template-columns: 33.333% 33.33% 33.33%;
 	width: 100%;
-	background-image: url(HatakeSunflower.github.io/assets/hauntedforest.jpg);
+	background-image: url(../assets/hauntedforest.jpg);
 	background-position: center center;
 	background-size: cover;
 	justify-content: flex-start;
@@ -298,7 +298,7 @@ nav:hover {
 	height: 200px;
 	margin: 10px;
 	border: 1px solid white;
-	background-image: url(HatakeSunflower.github.io/assets/fest2.jpg);
+	background-image: url(../assets/fest2.jpg);
 	background-position: center center;
 	background-size: cover;
 }
