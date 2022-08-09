@@ -71,7 +71,7 @@ nav:hover {
 	position: relative;
 	z-index: -2;
 	top: 0px;
-	background-image: url(../ASSETS/traveller.jpg);
+	background-image: url(https://github.com/HatakeSunflower/HatakeSunflower.github.io/blob/main/assets/traveller.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
@@ -129,7 +129,7 @@ nav:hover {
 	padding-right: 10%;
 	transition: 0.5s;
 	display: flex;
-	background-image: url(../assets/supers_bg_desktop.jpg);
+	background-image: url(https://github.com/HatakeSunflower/HatakeSunflower.github.io/blob/main/assets/supers_bg_desktop.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
@@ -202,7 +202,7 @@ nav:hover {
 .seccion-destinos {
 	display: flex;
 	flex-direction: column;
-	background-image: url(../ASSETS/bll.jpg);
+	background-image: url(HatakeSunflower.github.io/assets/bll.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
