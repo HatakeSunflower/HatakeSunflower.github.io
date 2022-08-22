@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    border-top: 15px solid black;
+    font-family: sans-serif;
+}
+
+.body {
+    padding: 80px;
+    margin-left: 28px;
+    margin-right: 28px;
+}
+
+.logo {
+    padding: 10px;
+    position: relative;
+    display: block;
+    width: 60px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+}
+
+ul li a {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+ul li a.active {
+    background-color: #ccc;
+    color: #000;
+}
+
+ul li a:hover {
+    background-color: black;
+    color: #ddd;
+    transition: .5s;
+}
+
+.landscape {
+    z-index: 10;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.dropdown {
+    z-index: 10;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.dropdown ul ul {
+    position: absolute;
+    top: 85px;
+    border-top: 3px solid #000000;
+    opacity: 0;
+    visibility: hidden;
+    margin-left: -40px;
+}
+
+.dropdown ul li:hover>ul {
+    top: 50px;
+    opacity: 1;
+    visibility: visible;
+    transition: .3s linear;
+}
+
+.dropdown ul ul li {
+    width: 150px;
+    display: list-item;
+    position: relative;
+    border: 1px solid #000305;
+    border-top: none;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.dropdown ul ul li a {
+    text-align: center;
+    line-height: 50px;
+}
+
+@media (max-width: 858px) {
+    .dropdown {
+        display: block;
+    }
+    .landscape {
+        display: none;
+    }
+}
+
+.sa{
+    z-index: -1;
+    padding-top: 100px;
+    background: url(a.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 999px;
+}
