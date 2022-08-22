@@ -112,6 +112,11 @@ ul li a:hover {
     .landscape {
         display: none;
     }
+    .body {
+        padding: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 }
 
 .sa{
