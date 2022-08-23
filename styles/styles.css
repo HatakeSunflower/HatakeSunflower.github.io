@@ -58,7 +58,6 @@ ul li a:hover {
 }
 
 .landscape {
-    z-index: 10;
     top: 0;
     position: -webkit-sticky;
     position: sticky;
@@ -67,7 +66,6 @@ ul li a:hover {
 }
 
 .dropdown {
-    z-index: 10;
     top: 0;
     position: -webkit-sticky;
     position: sticky;
@@ -180,7 +178,7 @@ ul li a:hover {
         margin-left: 1%;
         margin-right: 1%;
     }
-    
+
     .container {
         flex-direction: column;
         width: 100%;
