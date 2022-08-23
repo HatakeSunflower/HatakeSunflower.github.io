@@ -105,41 +105,77 @@ ul li a:hover {
     line-height: 50px;
 }
 
-.liner {
-    margin-top: 1%;
-    margin-bottom: 3%;
+.liner{
+    margin: 1%;
     height: 1px;
     background-color: rgb(167, 167, 167);
+}
+
+.seccion-eventos {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-content: flex-start;
+}
+
+.ev {
+	margin: 3%;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.ev1 {
+	background-image: url(../assets/sunset.jpg);
+}
+
+.ev2 {
+	background-image: url(../assets/sunset.jpg);
+}
+
+.ev3 {
+	background-image: url(../assets/sunset.jpg);
+}
+
+.ev4 {
+	background-image: url(../assets/sunset.jpg);
+}
+.ev5 {
+	background-image: url(../assets/sunset.jpg);
+}
+
+.ev6 {
+	background-image: url(../assets/sunset.jpg);
+}
+
+.ev7 {
+	background-image: url(../assets/sunset.jpg);
+}
+
+.ev8 {
+	background-image: url(../assets/sunset.jpg);
+}
+.ev9 {
+	background-image: url(../assets/sunset.jpg);
+}
+
+.seccion-eventos p:hover {
+	transition: 500ms;
+	opacity: 1;
 }
 
 @media (max-width: 768px) {
     .dropdown {
         display: block;
     }
-
     .landscape {
         display: none;
     }
-
     .body {
         padding: 3%;
         margin-left: 1%;
         margin-right: 1%;
     }
-}
-
-.main {
-    height: 65vh;
-    background-color: #1d1e20;
-}
-
-.mains {
-    margin-top: -1%;
-    margin-bottom: 1%;
-    float: left;
-    width: 30%;
-    height: 102%;
-    background-image: url(../assets/moon.jpg);
-    background-position: center center;
-    background-size: cover;
+    .seccion-eventos {
+		grid-template-columns: auto auto;
+	}
 }
