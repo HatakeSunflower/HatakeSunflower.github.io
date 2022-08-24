@@ -7,24 +7,9 @@
 }
 
 body {
-    border-top: 15px solid black;
+    height: 100vh;
+    border-top: 15px solid #1e1f26;
     font-family: sans-serif;
-}
-
-.body {
-    padding: 3%;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-.logo {
-    padding: 10px;
-    position: relative;
-    display: block;
-    width: 60px;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 ul {
@@ -105,20 +90,20 @@ ul li a:hover {
     line-height: 50px;
 }
 
-.liner {
-    margin-top: 1%;
-    margin-bottom: 1%;
-    height: 1px;
-    background-color: rgb(167, 167, 167);
-}
+
 
 .main {
     min-height: 80vh;
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: #1e1f26;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .container {
@@ -154,7 +139,7 @@ ul li a:hover {
 
 .portrait {
     z-index: 1;
-    width: 40%;
+    width: 30%;
     height: 600px;
     background: url(https://images.unsplash.com/photo-1542662565-7e4b66bae529?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80) no-repeat center / cover;
     border-radius: 4px;
@@ -166,7 +151,7 @@ ul li a:hover {
 }
 
 .cv {
-    width: 60%;
+    width: 55%;
     min-height: 550px;
     background-color: #303137;
     display: flex;
@@ -191,6 +176,10 @@ ul li a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
 	justify-content: flex-start;
+}
+
+.icon {
+    margin: 10px;
 }
 
 @media (max-width: 768px) {
