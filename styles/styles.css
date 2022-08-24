@@ -21,7 +21,7 @@ body {
     justify-content: center;
 }
 
-.main i{
+.main i {
     margin: auto;
 }
 
@@ -32,21 +32,38 @@ body {
     justify-content: flex-start;
 }
 
-.navbar{
+.main input[type=checkbox] {
+    display: none;
+}
+
+.main input[type=button] {
+    display: none;
+}
+
+.label {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    display: inline-block;
+    background: url("../assets/caret-down-solid.svg") no-repeat center center;
+}
+
+.trigger input[type=checkbox]:checked+.label {
+    background: url("../assets/caret-right-solid.svg") no-repeat center center;
+}
+
+.navbar {
     display: flex;
     flex: 1;
     align-items: center;
-    
+
 }
 
 .navbar div {
     display: flex;
     flex-direction: column;
-}
-
-.navbar i {
-    height: 40px;
-    margin: 1px;
+    align-items: center;
+    justify-content: center;
 }
 
 .content {
@@ -127,7 +144,7 @@ body {
     margin-top: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-	justify-content: flex-start;
+    justify-content: flex-start;
 }
 
 @media (max-width: 768px) {
