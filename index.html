@@ -5,92 +5,74 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
+    <meta name="descripcion" content="Pagina dedicada al lore de destiny" />
     <title>subtitle</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <!-- Our Custom CSS -->
-    <link rel="stylesheet" href="styles/styles.css">
     <!-- Scrollbar Custom CSS -->
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
     <!-- Font Awesome JS -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
-        integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
-        crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
-        integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
-        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6216ed4532.js" crossorigin="anonymous"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/styles.css">
 
 </head>
 
 <body>
-
     <div class="wrapper">
         <!-- Sidebar  -->
         <nav id="sidebar">
             <div class="sidebar-header">
-                <h3>Hatake Sunflower</h3>
                 <img src="assets/kakashi.jpg" class="pic img-fluid rounded-circle" alt="Responsive image">
+                <h2>Anwar Ruiz</h2>
+                <a>Engineer and developer</a>
             </div>
-            <ul class="list-unstyled components">
-                <p>Full stack developer</p>
-                <li class="active">
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
-                    <ul class="collapse list-unstyled" id="homeSubmenu">
-                        <li>
-                            <a href="#">Home 1</a>
-                        </li>
-                        <li>
-                            <a href="#">Home 2</a>
-                        </li>
-                        <li>
-                            <a href="#">Home 3</a>
-                        </li>
+            <div class="sidebar-body">
+                <div class="component">
+                    <h3>About me</h3>
+                    <a class="io">24 years / Mexico / Freelance</a>
+                    <p href="#">Computational robotics engineer, passionate about technology, programing and videogames.
+                    </p>
+                    <div class="list-unstyled CTAs">
+                        <a href="https://bootstrapious.com/p/bootstrap-sidebar">Download CV</a>
+                    </div>
+                </div>
+                <h3>Hardskills</h3>
+                <div class="component">
+                    <ul class="fa-ul icon">
+                        <li><span class="fa-li"><i class="fa-solid fa-microchip"></i></span>Robotics</li>
+                        <li><span class="fa-li"><i class="fa-solid fa-gear"></i></span>Mechanical design</li>
+                        <li><span class="fa-li"><i class="fa-brands fa-dev"></i></span>Front-end development</li>
+                        <li><span class="fa-li"><i class="fa-solid fa-language"></i></span>Español (native) </li>
+                        <li><span class="fa-li"><i class="fa-solid fa-language"></i></span>English (C1)</li>
+                        <li><span class="fa-li"><i class="fa-solid fa-language"></i></span>français (B1)</li>
                     </ul>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false"
-                        class="dropdown-toggle">Pages</a>
-                    <ul class="collapse list-unstyled" id="pageSubmenu">
-                        <li>
-                            <a href="#">Page 1</a>
-                        </li>
-                        <li>
-                            <a href="#">Page 2</a>
-                        </li>
-                        <li>
-                            <a href="#">Page 3</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
-
-            <ul class="list-unstyled CTAs">
-                <li>
-                    <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</a>
-                </li>
-                <li>
-                    <a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a>
-                </li>
-            </ul>
+                </div>
+                <h3>Programming Skills</h3>
+                <ul class="fa-ul icon">
+                    <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Html, CSS, SASS</li>
+                    <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>JavaScript</li>
+                    <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Bootstrap</li>
+                    <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Git knowledge</li>
+                    <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>C, C++</li>
+                    <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>Python</li>
+                    <li><span class="fa-li"><i class="fa-solid fa-check"></i></span>PLC LD, SFC</li>
+                </ul>
+            </div>
+            <div class="icons icon">
+                <i class="fa-brands fa-github fa-lg"></i>
+                <i class="fa-brands fa-linkedin fa-lg"></i>
+                <i class="fa-solid fa-envelope fa-lg"></i>
+            </div>
         </nav>
         <!-- Page Content  -->
         <div id="content">
             <!-- Banner  -->
             <div class="banner col rounded"></div>
             <!-- Navbar  -->
-            <nav class="navbar navbar-expand-lg sticky-top bg-light navbar-dark bg-dark rounded">
+            <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark rounded">
                 <div class="container-fluid" bis_skin_checked="1">
                     <button type="button" id="sidebarCollapse" class="btn btn-dark">
                         <i class="fas fa-align-left"></i>
@@ -229,8 +211,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
-
-
+    <!-- JS script-->
     <script type="text/javascript">
         $(document).ready(function () {
             $("#sidebar").mCustomScrollbar({

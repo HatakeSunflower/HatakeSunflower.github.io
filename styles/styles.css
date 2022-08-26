@@ -1,4 +1,9 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+:root {
+    --fa-li-margin: 20px;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     background: #323232;
@@ -57,7 +62,7 @@ a:focus {
 }
 
 #sidebar {
-    width: 25%;
+    width: 250px;
     position: fixed;
     top: 0;
     left: 0;
@@ -69,7 +74,7 @@ a:focus {
 }
 
 #sidebar.active {
-    margin-left: -25%;
+    margin-left: -250px;
 }
 
 #sidebar .sidebar-header {
@@ -78,25 +83,47 @@ a:focus {
     background: #0D7377;
 }
 
-#sidebar ul.components {
-    padding: 20px 0;
+#sidebar .sidebar-header a {
+    text-align: center;
+    color: #212529;
+}
+
+#sidebar .sidebar-body {
+    text-align: left;
+    padding: 15px 20px;
+}
+
+#sidebar .sidebar-body p {
+    font-size: small;
+    color: #fff;
+}
+
+#sidebar .sidebar-body .io {
+    font-size: small;
+    text-align: justify;
+    color: #999;
+}
+
+#sidebar .component {
     border-bottom: 1px solid #0D7377;
 }
 
-#sidebar ul p {
+#sidebar h2{
     color: #fff;
-    padding: 10px;
+    padding-top: 10px;
+    font-size: larger;
+}
+
+#sidebar h3 {
+    padding-top: 10px;
+    color: #0D7377;
+    font-size: large;
 }
 
 #sidebar ul li a {
-    padding: 10px;
     font-size: 1.1em;
     display: block;
-}
-
-#sidebar ul li a:hover {
-    color: #212529;
-    background: #fff;
+    font-size: medium;
 }
 
 #sidebar ul li.active>a,
@@ -123,28 +150,36 @@ ul ul a {
     background: #0D7377;
 }
 
-ul.CTAs {
-    padding: 20px;
+.CTAs {
+    padding-bottom: 15px;
 }
 
-ul.CTAs a {
+.CTAs a {
     text-align: center;
     font-size: 0.9em !important;
     display: block;
     border-radius: 5px;
-    margin-bottom: 5px;
-}
-
-a.download {
-    background: #fff;
-    color: #212529;
-}
-
-a.article,
-a.article:hover {
+    line-height: 30px;
     background: #0D7377 !important;
     color: #fff !important;
 }
+
+.icons {
+    text-align: center;
+    color:#0D7377;
+}
+
+.icon i {
+    color:#0D7377;
+}
+
+.icon li{
+    font-size: small !important;
+}
+
+fa-ul{
+    --fa-li-margin: 20px;
+} 
 
 /* ---------------------------------------------------
     CONTENT STYLE
@@ -159,7 +194,7 @@ a.article:hover {
 }
 
 .row h2 {
-    color: #0D7377
+    color: whitesmoke;
 }
 
 .dlg {
@@ -170,7 +205,7 @@ a.article:hover {
 .dlg h3{
     font-size: large;
     font-weight: bold;
-    color: whitesmoke;
+    color: #0D7377;
 }
 
 .dlg p{
@@ -179,7 +214,7 @@ a.article:hover {
 }
 
 #content {
-    width: calc(100% - 25%);
+    width: calc(100% - 250px);
     padding: 40px;
     min-height: 100vh;
     transition: all 0.3s;
@@ -195,6 +230,26 @@ a.article:hover {
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
+
+@media (max-width: 1000px) {
+    #sidebar {
+        width: 25%;
+        margin-left: 0;
+    }
+    #sidebar.active {
+        margin-left: -25%;
+        
+    }
+    #content {
+        width: calc(100% - 25%);
+    }
+    #content.active {
+        width: 100%;
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+}
 
 @media (max-width: 768px) {
     #sidebar {
