@@ -94,13 +94,16 @@ a:focus {
 }
 
 #sidebar .sidebar-body p {
+    padding-top: 5px;
     font-size: small;
     color: #fff;
 }
 
 #sidebar .sidebar-body .io {
-    font-size: small;
-    text-align: justify;
+    display: block;
+    font-size: smaller;
+    text-decoration: none;
+    text-align: center;
     color: #999;
 }
 
@@ -193,23 +196,23 @@ fa-ul{
     height: 20vh;
 }
 
-.dlg {
-    padding: 10px;
-    margin-bottom: 15px;
-    background-color: #2c2c2c;
-}
-
 .row h2 {
     color: whitesmoke;
+    font-size: larger;
 }
 
-.dlg h3{
+.dlgv {
+    background-color: #2c2c2c;
+    margin-bottom: 15px;
+}
+
+.dlgv h5{
     font-size: large;
     font-weight: bold;
     color: #0D7377;
 }
 
-.dlg p{
+.dlgv p{
     font-size: medium;
     color: whitesmoke;
 }
